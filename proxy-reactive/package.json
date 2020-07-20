@@ -1,0 +1,8 @@
+{
+  "name": "proxy-reactive",
+  "version": "1.0.0",
+  "description": "reactive proxy with ts",
+  "main": "index.ts",
+  "author": "yoxious",
+  "license": "MIT"
+}
