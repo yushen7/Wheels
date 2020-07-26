@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .reset {
+      counter-reset: cnt1;
+      padding-left: 20px;
+    }
+    .counter:before {
+      counter-increment: cnt1;
+      content: counters(cnt1, '-', lower-roman) '. ';
+    }
+  </style>
+</head>
+<body>
+  <div class="reset">
+
+    <div class="counter">
+      概述
+      <div class="reset">
+        <div class="counter">1节</div>
+        <div class="counter">2姐</div>
+        <div class="counter">3届</div>
+        <div class="counter">4劫</div>
+        <div class="counter"></div>
+        <div class="counter"></div>
+        <div class="counter"></div>
+      </div>
+    </div>
+    <div class="counter">
+      <div class="reset">
+        <div class="counter"></div>
+        <div class="counter"></div>
+        <div class="counter"></div>
+        <div class="counter"></div>
+        <div class="counter"></div>
+        <div class="counter"></div>
+        <div class="counter"></div>
+        <div class="counter"></div>
+        <div class="counter"></div>
+      </div>
+    </div>
+    <div class="counter">
+      <div class="reset">
+        <div class="counter"></div>
+        <div class="counter"></div>
+        <div class="counter"></div>
+        <div class="counter"></div>
+        <div class="counter"></div>
+        <div class="counter"></div>
+        <div class="counter"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
